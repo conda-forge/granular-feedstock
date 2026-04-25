@@ -1,6 +1,6 @@
 context:
   name: "granular"
-  version: "0.21.0"
+  version: "0.22.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/${{ name }}-${{ version }}.tar.gz
-  sha256: 7139ba3f153c05e9066f7f67acb0d0acec7120137e89ca891499b726b29e6a17
+  sha256: 346c9a2d74a5874b802cb1b449837decbebeb2c7ddcbd6e89dba5ffab1b192b9
 
 build:
   noarch: python
